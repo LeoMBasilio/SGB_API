@@ -24,3 +24,4 @@ class LoansAdmin(admin.ModelAdmin):
     search_fields = ('user__name', 'book__title')
 
 admin.site.register(Loans, LoansAdmin)
+#

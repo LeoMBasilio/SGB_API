@@ -16,3 +16,4 @@ def validate_phone(value):
 def validate_name(value):
     regex = r'^[a-zA-Z\s]+$'
     return re.match(regex, value) is not None
+#
